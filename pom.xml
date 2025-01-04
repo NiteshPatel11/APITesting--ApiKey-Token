@@ -54,7 +54,24 @@
             <artifactId>mockito-junit-jupiter</artifactId>
             <version>5.5.0</version>
          </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>2.18.1</version>
+        </dependency>
 
+        <!-- For TestNG Integration -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.18.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-junit4</artifactId>
+            <version>2.18.1</version>
+        </dependency>
 
     </dependencies>
 
@@ -84,6 +101,7 @@
                     </includes>
                 </configuration>
             </plugin>
+
         </plugins>
 
     </build>
